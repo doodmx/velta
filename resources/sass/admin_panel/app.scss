@@ -1,0 +1,109 @@
+@import "../common-bootstrap";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+/*----- MDB -----*/
+
+@import "../../mdbpro/4.11.0/scss/core/bootstrap/functions";
+@import "../../mdbpro/4.11.0/scss/core/bootstrap/variables";
+@import "../../mdbpro/4.11.0/scss/core/bootstrap/rfs";
+
+/*----- MDB CORE ----- */
+@import "../../mdbpro/4.11.0/scss/core/mixins";
+@import "../../mdbpro/4.11.0/scss/core/colors";
+@import "../../mdbpro/4.11.0/scss/core/variables";
+@import "../../mdbpro/4.11.0/scss/core/global";
+@import "../../mdbpro/4.11.0/scss/core/helpers";
+@import "../../mdbpro/4.11.0/scss/core/masks";
+@import "../../mdbpro/4.11.0/scss/core/waves";
+@import "../../mdbpro/4.11.0/scss/core/typography";
+
+/* ----- MD FREE ----- */
+@import "../../mdbpro/4.11.0/scss/free/animations-basic";
+@import "../../mdbpro/4.11.0/scss/free/modules/animations-extended/module";
+@import "../../mdbpro/4.11.0/scss/free/buttons";
+@import "../../mdbpro/4.11.0/scss/free/cards";
+@import "../../mdbpro/4.11.0/scss/free/dropdowns";
+@import "../../mdbpro/4.11.0/scss/free/input-group";
+@import "../../mdbpro/4.11.0/scss/free/navbars";
+@import "../../mdbpro/4.11.0/scss/free/pagination";
+@import "../../mdbpro/4.11.0/scss/free/badges";
+@import "../../mdbpro/4.11.0/scss/free/modals";
+@import "../../mdbpro/4.11.0/scss/free/carousels";
+@import "../../mdbpro/4.11.0/scss/free/forms";
+@import "../../mdbpro/4.11.0/scss/free/footers";
+@import "../../mdbpro/4.11.0/scss/free/list-group";
+@import "../../mdbpro/4.11.0/scss/free/tables";
+
+
+/* ----- MDB PRO ----- */
+
+@import "../../mdbpro/4.11.0/scss/pro/variables";
+@import "../../mdbpro/4.11.0/scss/pro/buttons";
+@import "../../mdbpro/4.11.0/scss/pro/tabs";
+@import "../../mdbpro/4.11.0/scss/pro/cards-basic";
+@import "../../mdbpro/4.11.0/scss/pro/dropdowns";
+@import "../../mdbpro/4.11.0/scss/pro/navbars";
+@import "../../mdbpro/4.11.0/scss/pro/scrollspy";
+@import "../../mdbpro/4.11.0/scss/pro/forms";
+@import "../../mdbpro/4.11.0/scss/pro/radio";
+@import "../../mdbpro/4.11.0/scss/pro/checkbox";
+@import "../../mdbpro/4.11.0/scss/pro/material-select";
+@import "../../mdbpro/4.11.0/scss/pro/file-input";
+@import "../../mdbpro/4.11.0/scss/pro/input-group";
+@import "../../mdbpro/4.11.0/scss/pro/autocomplete";
+@import "../../mdbpro/4.11.0/scss/pro/accordion-basic";
+@import "../../mdbpro/4.11.0/scss/pro/modules/accordion-extended/module";
+@import "../../mdbpro/4.11.0/scss/pro/modules/parallax/module";
+@import "../../mdbpro/4.11.0/scss/pro/sidenav";
+@import "../../mdbpro/4.11.0/scss/pro/animations";
+@import "../../mdbpro/4.11.0/scss/pro/scrollbar";
+
+@import "../../mdbpro/4.11.0/scss/pro/picker/default";
+@import "../../mdbpro/4.11.0/scss/pro/picker/default-time";
+@import "../../mdbpro/4.11.0/scss/pro/picker/default-date";
+
+@import "../../mdbpro/4.11.0/scss/pro/skins";
+
+//Third Party Libraries
+@import "~parsleyjs/src/parsley.css";
+@import "~smartwizard/dist/css/smart_wizard.min.css";
+@import "~smartwizard/dist/css/smart_wizard_theme_arrows.min.css";
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.min.css';
+@import '~datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css';
+@import '~datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css';
+@import '~bootstrap-tagsinput/dist/bootstrap-tagsinput.css';
+$flagsImagePath: "../../img/";
+@import "~intl-tel-input/src/css/intlTelInput";
+
+
+
+
+//Overrides
+@import "../overrides/input";
+@import "../overrides/intl_input";
+@import "../overrides/smart_wizard";
+@import "../overrides/parsley";
+@import "../sticky_header";
+@import "../overrides/swal";
+@import "../overrides/tags";
+
+
+//ADMIN PANEL STYLES
+@import "./dark_theme";
+@import "./right_sidenav";
+@import "./image_picker";
+@import './general-components';
+
+//COMPONENTS
+
+@import "../components/circle";
+@import "../components/backgrounds";
+@import "../components/navbar";
+@import "../components/fonts";
+
+
+
+

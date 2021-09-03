@@ -1,0 +1,43 @@
+@import "../common-bootstrap";
+
+.md-form {
+  input,textarea {
+    color: theme-color('secondary');
+    border-bottom: 1px solid theme-color('secondary-two') !important;
+  }
+
+  label {
+    color: theme-color('primary');
+  }
+
+  .prefix.active, label.active {
+    color:  theme-color('primary') !important;
+  }
+}
+
+.md-form input:not([type]):focus:not([readonly]),
+.md-form input[type="text"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="password"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="email"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="url"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="time"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="date"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="tel"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="number"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="search"]:not(.browser-default):focus:not([readonly]),
+.md-form input[type="search-md"]:focus:not([readonly]),
+.md-form textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid  theme-color('primary') !important;
+  -webkit-box-shadow: 0 1px 0 0  theme-color('primary');
+  box-shadow: 0 1px 0 0  theme-color('primary');
+}
+
+
+
+.form-check-input[type=checkbox]:checked + label:before,
+label.btn input[type=checkbox]:checked + label:before{
+  border-right: 2px solid theme-color('primary') !important;
+  border-bottom: 2px solid theme-color('primary') !important;
+}

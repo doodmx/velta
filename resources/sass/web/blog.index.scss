@@ -1,0 +1,43 @@
+@import "../common-bootstrap";
+@import "~bootstrap/scss/pagination";
+
+html,
+body,
+header,
+.jarallax {
+  height: 700px;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+
+.blog-card {
+  img {
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card-body {
+    height: 25rem;
+    overflow: hidden;
+  }
+
+
+}

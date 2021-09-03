@@ -1,0 +1,23 @@
+.image-picker {
+  position: relative;
+  display: block;
+  margin: .5rem auto;
+  height: 150px;
+  width: 150px;
+
+  .clear {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    display: none;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+    object-position: center;
+  }
+}

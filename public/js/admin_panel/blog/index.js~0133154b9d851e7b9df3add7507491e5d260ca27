@@ -1,0 +1,35 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["/js/admin_panel/blog/index"],{
+
+/***/ "./resources/js/admin_panel/blog/index.js":
+/*!************************************************!*\
+  !*** ./resources/js/admin_panel/blog/index.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+$(function () {
+  var table = $('#dataTableBuilder').DataTable();
+  $("select").materialSelect();
+  $('#dataTableBuilder').on('preXhr.dt', function (e, settings, data) {
+    data.category = $('#categorySelect').val();
+  });
+  $("#categorySelect").on("change", function () {
+    table.ajax.reload();
+  });
+});
+
+/***/ }),
+
+/***/ 2:
+/*!******************************************************!*\
+  !*** multi ./resources/js/admin_panel/blog/index.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! /Users/josejesus/Desktop/velta-app/resources/js/admin_panel/blog/index.js */"./resources/js/admin_panel/blog/index.js");
+
+
+/***/ })
+
+},[[2,"/js/admin_panel/manifest"]]]);

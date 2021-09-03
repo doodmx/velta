@@ -1,0 +1,19 @@
+.collapse-right {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 10;
+}
+
+.content {
+  min-height: 100vh;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+
+@include media-breakpoint-up(sm) {
+  .content {
+    padding-left: 250px;
+  }
+}

@@ -1,0 +1,87 @@
+@import "../../common-bootstrap";
+
+.course-container {
+
+  .review {
+    .avatar {
+      width: 3rem;
+      height: 3rem;
+      background: theme-color('secondary-two');
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: #424242;
+      letter-spacing: -1px;
+    }
+  }
+
+
+  .course-price-card {
+
+    transition-duration: .25s;
+    background: transparent;
+
+    .sticky-card {
+      z-index: 999;
+    }
+
+    @include media-breakpoint-down(md) {
+
+      background: #ffffff !important;
+      &.sticky-card {
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        border-radius: 0;
+        width: 100%;
+      }
+
+      .card-body {
+
+        box-shadow: 0 2px 25px rgba(theme-color('secondary-two'), .25);
+        .title {
+          padding: .5rem;
+
+          display: flex;
+          flex-flow: row;
+          justify-content: space-between;
+          align-items: center;
+
+          .purchase-btn {
+            padding: 0.7rem 1.6rem;
+            font-size: 0.7rem;
+          }
+
+        }
+
+      }
+
+
+    }
+
+
+    @include media-breakpoint-up(lg) {
+
+      .purchase-btn {
+        display: block;
+        width: 100%;
+      }
+
+
+      &.sticky-card {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 8rem;
+      }
+
+
+    }
+
+
+  }
+
+}

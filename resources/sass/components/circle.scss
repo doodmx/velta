@@ -1,0 +1,103 @@
+.circle {
+  display: block;
+  background: black;
+  border-radius: 100%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0.375);
+
+  &.primary {
+    background: radial-gradient(circle at 1.2rem 1.2rem, #df9a6c, #a54827);
+  }
+
+  &.gradient {
+
+    background: rgb(94, 80, 62);
+    background: linear-gradient(180deg, rgba(94, 80, 62, 1) 0%, rgba(75, 62, 45, 1) 25%, rgba(23, 28, 33, 1) 50%, rgba(198, 173, 130, 1) 75%, rgba(235, 232, 225, 1) 100%);
+
+  }
+
+  &.border-grey {
+    border: 1px solid #fafafa;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  &.border-brown {
+    border: 1px solid #96583d;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  &.bronze {
+    background: rgb(243, 203, 151);
+    background: radial-gradient(circle, rgba(243, 203, 151, 1) 0%, rgba(244, 181, 128, 1) 50%, rgba(207, 136, 83, 1) 100%) !important;
+  }
+
+  &.silver {
+    background: rgb(198, 198, 198);
+    background: radial-gradient(circle, rgba(198, 198, 198, 1) 0%, rgba(164, 164, 164, 1) 50%, rgba(172, 172, 172, 1) 100%) !important;
+  }
+
+  &.gold {
+    background: rgb(237, 219, 134);
+    background: radial-gradient(circle, rgba(237, 219, 134, 1) 0%, rgba(237, 209, 122, 1) 50%, rgba(191, 159, 81, 1) 100%) !important;
+
+  }
+
+  &.diamond {
+    background: rgb(242, 243, 244);
+    background: radial-gradient(circle, rgba(242, 243, 244, 1) 0%, rgba(157, 232, 255, 1) 33%, rgba(111, 206, 255, 1) 100%) !important;
+  }
+
+  &.circle-xs {
+    height: 1.5rem;
+    width: 1.5rem;
+    @include media-breakpoint-down(lg) {
+      height: 1rem;
+      width: 1rem;
+    }
+
+  }
+
+  &.circle-sm {
+    height: 4rem;
+    width: 4rem;
+    @include media-breakpoint-down(lg) {
+      height: 2rem;
+      width: 2rem;
+    }
+
+  }
+
+  &.circle-md {
+    height: 6rem;
+    width: 6rem;
+
+    @include media-breakpoint-down(lg) {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+
+
+  &.circle-lg {
+    height: 8rem;
+    width: 8rem;
+
+    @include media-breakpoint-down(lg) {
+      height: 4rem;
+      width: 4rem;
+    }
+  }
+
+  &.circle-xl {
+    height: 10rem;
+    width: 10rem;
+
+    @include media-breakpoint-down(lg) {
+      height: 5rem;
+      width: 5rem;
+    }
+  }
+
+
+}

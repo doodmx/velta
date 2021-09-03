@@ -1,0 +1,146 @@
+@import '../common-bootstrap.scss';
+@import "../components/circle";
+@import "./we_do";
+
+.circle {
+  margin-top: 1rem;
+  position: relative;
+
+  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.header-figures {
+  position: relative;
+  width: 22rem;
+
+
+  .circle {
+    &.border-brown {
+      position: absolute;
+      top: 0;
+      left: 6rem;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+
+    width: 12rem;
+    .circle {
+
+      &.border-brown {
+        left: 3rem;
+      }
+
+    }
+  }
+
+}
+
+.app-figures {
+
+  position: relative;
+  width: inherit;
+  height: 20rem;
+
+  @include media-breakpoint-down(lg) {
+    height: 10rem;
+  }
+
+  .circle {
+    left: 50%;
+    transform: translateX(-50%);
+
+    &:first-child {
+      position: absolute;
+      top: 0;
+      z-index: 4;
+    }
+
+    &:nth-child(2) {
+      position: absolute;
+      top: 4rem;
+      z-index: 3;
+    }
+
+    &:nth-child(3) {
+      position: absolute;
+      top: 8rem;
+      z-index: 2;
+    }
+
+    &:last-child {
+      position: absolute;
+      top: 12rem;
+      z-index: 1;
+    }
+
+    @include media-breakpoint-down(lg) {
+
+      &:nth-child(2) {
+        top: 2rem;
+      }
+
+      &:nth-child(3) {
+        top: 4rem;
+      }
+
+      &:last-child {
+        top: 6rem;
+      }
+
+    }
+  }
+}
+
+.jarallax{
+  min-height: 400px;
+
+  @include media-breakpoint-down(sm){
+    height: 600px;
+  }
+}
+
+.approach-card {
+  height: 30rem;
+
+  @include media-breakpoint-down(sm) {
+    height: auto;
+  }
+}
+
+.pricing-card {
+
+  padding: 1.5rem 1rem;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  min-width: 0;
+  color: theme-color('secondary');
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+  box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+  height: 40rem;
+
+  @include media-breakpoint-down(sm) {
+    height: auto;
+  }
+
+  &.recommended {
+
+    transform: scale(1.05);
+    border-color: theme-color('primary');
+  }
+}
+

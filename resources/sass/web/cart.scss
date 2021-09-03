@@ -1,0 +1,48 @@
+@import "../common-bootstrap";
+
+.cart {
+
+
+  .item {
+
+    border-bottom: 1px solid theme-color('grey');
+    padding: 2rem 0;
+
+    .avatar {
+
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+
+    @include media-breakpoint-down(md) {
+      border: none;
+      .avatar {
+        display: block;
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+      }
+
+      .totals {
+        .total-item {
+          display: flex;
+          justify-content: space-between;
+          font-size: 1.25rem;
+          padding: 1rem 0;
+          border-bottom: 1px solid theme-color('grey');
+
+          .title {
+            color: theme-color('lime-green');
+            font-weight: bold;
+          }
+        }
+
+      }
+    }
+  }
+
+
+}

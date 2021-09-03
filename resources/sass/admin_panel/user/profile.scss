@@ -1,0 +1,17 @@
+@import "../../common-bootstrap";
+.avatar-container {
+  position: relative;
+  height: 12rem;
+  width: 12rem;
+  display: block;
+  margin: auto;
+
+  img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border: 4px solid rgba(theme-color('secondary-two'),.375);
+    object-fit: cover;
+    object-position: center;
+  }
+}

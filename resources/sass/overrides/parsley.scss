@@ -1,0 +1,35 @@
+@import "../common-bootstrap";
+
+
+input:not([type]):focus:not([readonly]).parsley-error,
+input[type="text"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="password"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="email"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="url"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="time"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="date"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="tel"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="number"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="search"]:not(.browser-default):focus:not([readonly]).parsley-error,
+input[type="search-md"]:focus:not([readonly]).parsley-error,
+textarea.md-textarea:focus:not([readonly]).parsley-error {
+  border-bottom: 1px solid color('red') !important;
+  -webkit-box-shadow: 0 1px 0 0 color('red') !important;
+  box-shadow: 0 1px 0 0 color('red') !important;
+}
+
+.form-check.parsley-error{
+  border-bottom: none!important;
+  box-shadow: none!important;
+}
+
+.parsley-error {
+  border-bottom: 1px solid color('red') !important;
+}
+
+.parsley-errors-list {
+  margin-top: .75rem;
+  color: color('red') !important;
+}

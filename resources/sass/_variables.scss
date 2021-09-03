@@ -1,0 +1,56 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Telegraf', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$theme-colors: (
+        "primary": #FE692E,
+        "secondary": #24272C,
+        "secondary-two" : #64513d,
+        "secondary-three" : #64513d,
+        "tertiary": #FFAD8D,
+        "tertiary-two":#37FFC2,
+        "tertiary-three": #10B683,
+        "grey":#636363,
+);
+
+$image-path: '../../img/';
+
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$dark: #24272C;
+$grey: #636363;
+$grey-light: #E5E6E7;
+
+$primary-color: #FE692E;
+$secondary-color: #24272C;
+$secondary-color-dark: #64513d;
+
+
+$navbar-font-weight:bold;
+$navbar-light-color: $secondary-color;
+$navbar-light-hover-color: $primary-color;
+$navbar-light-active-color: $primary-color;
+$navbar-light-bg-active-color: transparent;
+$navbar-light-toggler-border-color: $primary-color;
+
+
+$breadcrumb-active-color: $primary-color;
+$breadcrumb-bg: transparent;
+
+$dropdown-colors: (
+        "primary": #FE692E,
+        "secondary": #64513d
+);

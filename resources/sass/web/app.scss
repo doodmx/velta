@@ -1,0 +1,20 @@
+@import "../variables";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '../../mdbpro/4.11.0/scss/mdb-pro';
+@import "~parsleyjs/src/parsley.css";
+//Intl input
+$flagsImagePath: "../../img/";
+@import "~intl-tel-input/src/css/intlTelInput";
+//Overrides
+@import "../overrides/input";
+@import "../overrides/intl_input";
+@import "../overrides/parsley";
+@import "../overrides/swal";
+
+//Components
+@import "../components/main";
+@import "../components/fonts";
+@import "../components/backgrounds";
+@import "../components/navbar";
+@import "../components/text";

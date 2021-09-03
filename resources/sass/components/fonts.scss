@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Telegraf";
+  src: url("https://cdn.veltacorp.com/fonts/Telegraf-UltraLight.otf");
+}
+
+@font-face {
+  font-family: "Telegraf";
+  src: url("https://cdn.veltacorp.com/fonts/Telegraf-Regular.otf");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "Akzidenz";
+  src: url("https://cdn.veltacorp.com/fonts/AkzidenzGroteskBE-Ex.otf");
+}
+
+@font-face {
+  font-family: "Akzidenz";
+  src: url("https://cdn.veltacorp.com/fonts/AkzidenzGroteskBE-MdEx.otf");
+  font-weight: bold;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Akzidenz", Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+}

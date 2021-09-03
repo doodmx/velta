@@ -1,0 +1,55 @@
+@import "../common-bootstrap";
+
+.sw-theme-default {
+
+  .step-content {
+    background: transparent;
+  }
+
+  .step-anchor {
+    display: flex;
+    flex-flow: wrap;
+    background: theme-color('tertiary');
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+    border: none;
+
+
+    .nav-item {
+      padding: 1rem;
+      flex-grow: 1;
+      text-align: center;
+
+      @include media-breakpoint-down(md) {
+        padding: .25rem;
+      }
+
+      a {
+        color: theme-color('secondary');
+      }
+
+      &.active {
+        background: theme-color('primary');
+
+        a {
+          color: #ffffff !important;
+
+          &::after {
+            background: theme-color('primary');
+          }
+        }
+      }
+    }
+
+  }
+
+  .sw-toolbar {
+    background: transparent;
+    border-top: 1px solid #ffffff;
+    padding: 1rem;
+
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+  }
+
+}

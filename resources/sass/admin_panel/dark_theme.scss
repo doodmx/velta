@@ -1,0 +1,177 @@
+@import "../common-bootstrap";
+
+
+.main-content {
+  margin-top: 110px;
+  margin-bottom: 3rem;
+}
+
+.dark-bg-admin {
+  background: theme-color('black-pearl');
+}
+
+.dark-card-admin {
+  background: theme-color('tangaroa') !important;
+}
+
+.dark-mode-card-transparent {
+  background: transparent !important;
+}
+
+.dark-card-bg {
+  position: relative;
+  background: theme-color('tangaroa');
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: theme-color('tangaroa');
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+.dark-sidenav-bg {
+
+  &::after {
+    background: theme-color('tangaroa');
+
+  }
+}
+
+/*----- SIDENAV STYLES ----- */
+.navy-blue-skin {
+
+
+  .btn-secondary {
+    color: #ffffff;
+    background-color: theme-color('primary') !important;
+  }
+
+  .side-nav {
+    background-position: unset;
+    background-size: unset;
+    background: none;
+
+    .collapsible {
+
+      li {
+        a:not(.collapsible-header){
+          &:hover {
+            background-color: theme-color('primary');
+            color: #ffffff !important;
+          }
+          &.active{
+            background-color: theme-color('lime-green')!important;
+            color: theme-color('tangaroa')!important;
+          }
+        }
+        .collapsible-header {
+          &:hover {
+            background-color: theme-color('tangaroa');
+            color: theme-color('lime-green');
+          }
+          &.active{
+            background-color: theme-color('lime-green');
+            color: theme-color('tangaroa');
+          }
+        }
+        .collapsible-body{
+          a{
+            i{
+              color: #FFFFFF;
+            }
+            &:hover{
+              color: theme-color('lime-green');
+              i{
+                color: theme-color('lime-green');
+              }
+            }
+            &.active{
+              color: theme-color('tangaroa');
+              i{
+                color: theme-color('tangaroa');
+              }
+            }
+
+          }
+        }
+      }
+
+      a {
+        height: 40px;
+        line-height: 40px;
+        font-size: .9rem;
+        margin-bottom: 0;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+}
+
+
+.cascading-admin-card {
+  margin-top: 1.25rem;
+
+  .admin-up {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: -1.25rem;
+
+    .fas, .far, .fab {
+      padding: 1.7rem;
+      font-size: 2rem;
+      color: #fff;
+      text-align: left;
+      border-radius: 3px;
+    }
+
+    .data {
+      float: right;
+      margin-top: 2rem;
+      text-align: right;
+
+      p {
+        color: #999999;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.classic-admin-card {
+
+  .progress {
+    margin: 0;
+    opacity: 0.7;
+  }
+
+  .card-body {
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0.9rem;
+
+    h4 {
+      margin-top: 10px;
+    }
+
+    p {
+      font-size: 13px;
+      opacity: 0.7;
+      margin-bottom: 0;
+    }
+
+    .float-right .fas, .float-right .far, .float-right .fab {
+      font-size: 3rem;
+      opacity: 0.5;
+    }
+
+
+  }
+}

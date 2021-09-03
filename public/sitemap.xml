@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://veltacorp.com/pages_sitemap.xml</loc>
+    
+        <lastmod>2021-08-28T00:00:00-05:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://veltacorp.com/posts_sitemap.xml</loc>
+    
+        <lastmod>2021-08-28T00:00:00-05:00</lastmod>
+    </sitemap>
+</sitemapindex>

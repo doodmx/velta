@@ -1,0 +1,9 @@
+.bg-main-gradient {
+  background: rgb(152, 59, 28);
+  background: linear-gradient(180deg, rgba(152, 59, 28, 1) 0%, rgba(177, 85, 50, 1) 50%, rgba(205, 119, 83, 1) 100%) !important;
+}
+
+.bg-secondary-gradient {
+  background: rgb(250, 242, 235);
+  background: linear-gradient(360deg, rgba(250, 242, 235, 1) 0%, rgba(238, 199, 170, 1) 50%, rgba(232, 182, 146, 1) 100%);
+}

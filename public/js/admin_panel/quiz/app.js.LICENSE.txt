@@ -1,0 +1,14 @@
+/*! **VERSION FOR WEB** (For NODE.JS see http://jsviews.com/download/jsrender-node.js) */
+
+/*! JsRender v1.0.7: http://jsviews.com/#jsrender */
+
+/*! includes JsRender, JsObservable and JsViews - see: http://jsviews.com/#download */
+
+/*! jsviews.js v1.0.7 single-file version: http://jsviews.com/ */
+
+/**!
+ * Sortable 1.10.2
+ * @author	RubaXa   <trash@rubaxa.org>
+ * @author	owenm    <owen23355@gmail.com>
+ * @license MIT
+ */

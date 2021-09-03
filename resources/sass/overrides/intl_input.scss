@@ -1,0 +1,36 @@
+@import "../common-bootstrap";
+
+
+.intl-tel-input {
+
+  position: static;
+  width: 100%;
+
+  &.separate-dial-code{
+    overflow: hidden;
+  }
+
+  .allow-dropdown {
+
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+
+    .flag-container {
+      z-index: 4;
+    }
+
+  }
+
+  .country-list {
+    background: theme-color('secondary-two');
+    color: #ffffff;
+  }
+
+  .selected-flag {
+    background: transparent !important;
+  }
+
+
+}

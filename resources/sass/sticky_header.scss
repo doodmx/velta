@@ -1,0 +1,14 @@
+#myHeader {
+  transition-duration: .25s;
+}
+
+.sticky-header-top {
+  z-index: 2000 !important;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sticky-header-top + .module-content {
+  padding-top: 150px !important;
+}

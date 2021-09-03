@@ -1,0 +1,133 @@
+/*!
+ * Chart.js
+ * http://chartjs.org/
+ * Version: 2.7.3
+ *
+ * Copyright 2018 Chart.js Contributors
+ * Released under the MIT license
+ * https://github.com/chartjs/Chart.js/blob/master/LICENSE.md
+ */
+
+/*!
+ * ClockPicker v0.0.7 (http://weareoutman.github.io/clockpicker/)
+ * Copyright 2014 Wang Shenwei.
+ * Licensed under MIT (https://github.com/weareoutman/clockpicker/blob/gh-pages/LICENSE)
+ *
+ * Further modified
+ * Copyright 2015 Ching Yaw Hao.
+ */
+
+/*!
+ * Date picker for pickadate.js v3.6.3
+ * http://amsul.github.io/pickadate.js/date.htm
+ */
+
+/*!
+ * HTML5 export buttons for Buttons and DataTables.
+ * 2016 SpryMedia Ltd - datatables.net/license
+ *
+ * FileSaver.js (1.3.3) - MIT license
+ * Copyright © 2016 Eli Grey - http://eligrey.com
+ */
+
+/*!
+ * Material Design for Bootstrap 4
+ *   Version: MDB PRO 4.11.0
+ * 
+ * 
+ *   Copyright: Material Design for Bootstrap
+ *   https://mdbootstrap.com/
+ * 
+ *   Read the license: https://mdbootstrap.com/general/license/
+ * 
+ * 
+ *   Documentation: https://mdbootstrap.com/
+ * 
+ *   Getting started: https://mdbootstrap.com/docs/jquery/getting-started/download/
+ * 
+ *   Tutorials: https://mdbootstrap.com/education/bootstrap/
+ * 
+ *   Templates: https://mdbootstrap.com/templates/
+ * 
+ *   Support: https://mdbootstrap.com/support/
+ * 
+ *   Contact: office@mdbootstrap.com
+ * 
+ *   Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js, jquery.easing.js, velocity.js, chart.js, wow.js, scrolling-navbar.js, waves.js, forms-free.js, preloading.js, cards.js, character-counter.js, toastr.js, smooth-scroll.js, dropdown.js, buttons.js, sidenav.js, collapsible.js, range-input.js, file-input.js, material-select.js, picker.js, picker-date.js, picker-time.js, lightbox.js, jquery.sticky.js, scrollbar.js, chips.js, ofi.js, jarallax.js, jarallax-video.js, mdb-autocomplete.js, enhanced-modals.js, treeview.js
+ */
+
+/*!
+ * Name    : Just Another Parallax [Jarallax]
+ * Version : 1.10.4
+ * Author  : nK <https://nkdev.info>
+ * GitHub  : https://github.com/nk-o/jarallax
+ */
+
+/*!
+ * Name    : Video Background Extension for Jarallax
+ * Version : 1.0.1
+ * Author  : nK <https://nkdev.info>
+ * GitHub  : https://github.com/nk-o/jarallax
+ */
+
+/*!
+ * Print button for Buttons and DataTables.
+ * 2016 SpryMedia Ltd - datatables.net/license
+ */
+
+/*!
+ * Waves v0.7.6
+ * http://fian.my.id/Waves
+ *
+ * Copyright 2014-2018 Alfiana E. Sibuea and other contributors
+ * Released under the MIT license
+ * https://github.com/fians/Waves/blob/master/LICENSE
+ */
+
+/*!
+ * bsCustomFileInput v1.3.2 (https://github.com/Johann-S/bs-custom-file-input)
+ * Copyright 2018 - 2019 Johann-S <johann.servoire@gmail.com>
+ * Licensed under MIT (https://github.com/Johann-S/bs-custom-file-input/blob/master/LICENSE)
+ */
+
+/*!
+ * chartjs-plugin-datalabels v0.7.0
+ * https://chartjs-plugin-datalabels.netlify.com
+ * (c) 2019 Chart.js Contributors
+ * Released under the MIT license
+ */
+
+/*!
+ * perfect-scrollbar v1.4.0
+ * (c) 2018 Hyunje Jun
+ * @license MIT
+ */
+
+/*!
+ * pickadate.js v3.6.3, 2019/04/03
+ * By Amsul, http://amsul.ca
+ * Hosted on http://amsul.github.io/pickadate.js
+ * Licensed under MIT
+ */
+
+/*! Bootstrap 4 integration for DataTables' Responsive
+ * ©2016 SpryMedia Ltd - datatables.net/license
+ */
+
+/*! Buttons for DataTables 1.6.2
+ * ©2016-2020 SpryMedia Ltd - datatables.net/license
+ */
+
+/*! Note that this has been modified by Materialize to confirm that Velocity is not already being imported. */
+
+/*! PhotoSwipe - v4.1.1 - 2015-12-24
+ * http://photoswipe.com
+ * Copyright (c) 2015 Dmitry Semenov; */
+
+/*! Responsive 2.2.5
+ * 2014-2020 SpryMedia Ltd - datatables.net/license
+ */
+
+/*! VelocityJS.org (1.2.3). (C) 2014 Julian Shapiro. MIT @license: en.wikipedia.org/wiki/MIT_License */
+
+/*! VelocityJS.org jQuery Shim (1.0.1). (C) 2014 The jQuery Foundation. MIT @license: en.wikipedia.org/wiki/MIT_License. */

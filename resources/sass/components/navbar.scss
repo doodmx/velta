@@ -1,0 +1,70 @@
+.profile-avatar {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid theme-color('primary');
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.navbar {
+
+    @include media-breakpoint-up(lg) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+
+        .navbar-brand {
+            padding-top: 0;
+            padding-bottom: 0;
+
+        }
+
+        .navbar-collapse {
+            padding-top: 0;
+            padding-bottom: 0;
+
+
+            .nav-item {
+                height: 90px;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+    }
+
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .675) !important;
+
+    .navbar-brand {
+        img {
+            height: 60px;
+            width: auto;
+        }
+    }
+
+    .nav-item {
+
+        &.active {
+            background-color: theme-color('primary');
+
+            .nav-link {
+                color: #ffffff !important;
+            }
+        }
+
+        &.nav-cta {
+            transition: all .1s ease-in;
+
+            &:hover {
+                font-size: 1.3rem;
+
+                i {
+                    color: theme-color('primary');
+                }
+            }
+        }
+
+    }
+
+
+}
